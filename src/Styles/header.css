@@ -1,0 +1,41 @@
+body {
+  background-color: var(--color-black);
+  color: aliceblue;
+}
+
+.container__header {
+  height: 91px;
+  box-shadow: 2px 2px 10px -3px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  backdrop-filter: blur(0.5rem);
+}
+
+.container__header > div {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 4rem;
+  align-items: center;
+}
+
+.container__header > div > nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.container__header > div > nav > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-red);
+}
+
+.container__header > div > h2 {
+  border: 1px solid var(--color-red);
+  padding: 1rem;
+}
