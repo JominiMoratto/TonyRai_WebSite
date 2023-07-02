@@ -1,0 +1,10 @@
+body {
+    background-color: var(--color-black);
+    
+} 
+header {
+    font-size: 1rem;
+    color: var(--color-white);
+    font-style: "roboto";
+}
+
