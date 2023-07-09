@@ -8,3 +8,252 @@ main {
   background-size: 100%;
   height: 100vh;
 }
+
+.container__sectionImgBackground > h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 31rem 0 0;
+  font-size: 5rem;
+  font-family: "Rubik Glitch", cursive;
+}
+
+.container__sectionImgBackground > h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Rubik Glitch", cursive;
+}
+
+.container__sectionImgBackground > h2 > span {
+  color: var(--color-red);
+}
+
+.container__backgroundEffect {
+  background-image: url(../assets/EFFECT.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 40vh;
+}
+
+.container__backgroundEffect > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 6rem;
+  gap: 4rem;
+}
+
+.container__backgroundEffect > ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.container__backgroundEffect > ul > li > h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.container__backgroundEffect > ul > li > p {
+  text-align: center;
+}
+
+.container__sectionRing {
+  margin-top: 4rem;
+  padding: 0 8rem;
+  display: flex;
+}
+
+.container__sectionRing > div > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.container__sectionRing > div > h2 > span {
+  color: var(--color-red);
+}
+
+.container__sectionRing > div > p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  width: 73%;
+  line-height: 30px;
+}
+
+.container__sectionRing > div > button {
+  margin-top: 2rem;
+
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: 1px solid var(--color-red);
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.container__sectionRing > img {
+  width: 100%;
+  height: 22rem;
+}
+
+.container__sectionTonyRai {
+  display: flex;
+  margin-top: 9rem;
+  padding: 0 8rem;
+}
+
+.container__sectionTonyDiv {
+  display: flex;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.container__sectionTonyDiv > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container__sectionTonyDiv > img {
+  width: 14%;
+  position: relative;
+  right: 385px;
+  top: 37px;
+}
+
+.container__sectionTonyRai > div > p {
+  line-height: 28px;
+
+  margin-top: 1.5rem;
+}
+
+.container__sectionTonyRai > div > button {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: 1px solid var(--color-red);
+}
+
+.container__sectionPeople {
+  margin-top: 5rem;
+  padding: 0 8rem;
+}
+
+.container__sectionPeople > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container__boxLeftAndRigth {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.--left {
+  position: relative;
+  top: -50px;
+  left: 40px;
+}
+
+.container__boxLeftAndRigth > h2 {
+  font-size: 2rem;
+}
+
+.--rigth {
+  position: relative;
+  top: -50px;
+  left: -37px;
+}
+
+.container__sectionPeople > p {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -87px;
+  right: -8px;
+}
+
+.container_divPeopleOne {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.container_divPeopleTwo {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.container__sectionImmageTony {
+  margin-top: 10rem;
+  padding: 0 10rem;
+}
+
+.container__sectionImmageTony > div {
+  display: flex;
+  gap: 4rem;
+}
+
+.container__sectionImmageTony > div > img {
+  border: 1px solid var(--color-red);
+  width: 80%;
+  height: 28rem;
+}
+
+.container__textImg > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container__textImg > p {
+  margin-top: 1rem;
+  width: 65%;
+}
+
+.container__textImg > button {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: 1px solid var(--color-red);
+}
+
+.container__sectionCollums {
+  margin-top: 10rem;
+
+  padding: 0 10rem;
+}
+
+.container__sectionCollums > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container__sectionCollums > h2 > span {
+  color: var(--color-red);
+}
+
+.container__divDisplay {
+  display: flex;
+  justify-content: space-between;
+}

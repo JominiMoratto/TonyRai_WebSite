@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/Styles/Reset.css" />
     <link rel="stylesheet" href="./src/Styles/Global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/Styles/header.css" />
     <link rel="stylesheet" href="./src/Styles/CssTwo.css" />
     <link rel="stylesheet" href="./src/Styles/CssTree.css" />
@@ -41,7 +47,11 @@
 
     <main>
       <section class="container__sectionImgBackground">
-        <h1>Allenati con un vero pugile e diventa il migliore !</h1>
+        <h1>Allenati con un vero pugile</h1>
+        <h2>e diventa il migliore<span> !</span></h2>
+      </section>
+
+      <section class="container__backgroundEffect">
         <ul>
           <li>
             <img src="./src/assets/Trophy.svg" alt="Trophy" />
@@ -71,12 +81,12 @@
             </p>
           </li>
         </ul>
-        <img src="./src/assets/EFFECT.svg" alt="EFFECT">
       </section>
 
-      <section>
+      <section class="container__sectionRing">
         <div>
-          <h2>Il prezzo da pagare per diventare un campione</h2>
+          <h2>IL PREZZO DA PAGARE PER</h2>
+          <h2>DIVENTARE UN <span>CAMPIONE</span></h2>
           <p>
             Essere un campione non è facile, richiede una grande quantità di
             lavoro, sacrificio e dedizione. Non ci sono scorciatoie o soluzioni
@@ -91,12 +101,12 @@
         <img src="./src/assets/RING.svg" alt="RING" />
       </section>
 
-      <section>
+      <section class="container__sectionTonyRai">
         <img src="./src/assets/TONY_RAY_3.svg" alt="TonyRai" />
         <div>
-          <div>
+          <div class="container__sectionTonyDiv">
             <h2>
-              La mia passione per la boxe e il mio sogno di allenare campioni
+              LA MIA PASSIONE PER LA BOXE E IL MIO SOGNO DI ALLENARE CAMPIONI
             </h2>
             <img src="./src/assets/Trophy.svg" alt="Trophy" />
           </div>
@@ -118,25 +128,25 @@
         </div>
       </section>
 
-      <section>
+      <section class="container__sectionPeople">
         <h2>ENTRA NELLA SQUADRA DI TONY RAY E</h2>
-        <div>
-          <img src="./src/assets/left.svg" alt="" />
+        <div class="container__boxLeftAndRigth">
+          <img class="--left" src="./src/assets/left.svg" alt="" />
           <h2>RAGGIUNGI NUOVI TRAGUARDI</h2>
-          <img src="./src/assets/rigth.svg" alt="" />
+          <img class="--rigth" src="./src/assets/rigth.svg" alt="" />
         </div>
         <p>
           Lavoreremo insieme sodo, ma alla fine vedrai i risultati come hanno
           fatto tanti altri prima di te.
         </p>
-        <div>
+        <div class="container_divPeopleOne">
           <img src="./src/assets/person1.svg" alt="person" />
           <img src="./src/assets/person2.svg" alt="person" />
           <img src="./src/assets/person3.svg" alt="person" />
           <img src="./src/assets/person4.svg" alt="person" />
           <img src="./src/assets/person5.svg" alt="person" />
         </div>
-        <div>
+        <div class="container_divPeopleTwo">
           <img src="./src/assets/person4.svg" alt="person" />
           <img src="./src/assets/person3.svg" alt="person" />
           <img src="./src/assets/person6.svg" alt="person" />
@@ -145,95 +155,105 @@
         </div>
       </section>
 
-      <section>
+      <section class="container__sectionImmageTony">
         <div>
           <img src="./src/assets/IMMAGINE_TONY_RAY.svg" alt="TonyRai" />
-          <h2>TRASFORMA I TUOI SOGNI DI PUGILATO IN REALTA</h2>
-          <p>
-            Se hai sempre sognato di diventare un campione di pugilato, non c'è
-            mai stato un momento migliore per iniziare a trasformare i tuoi
-            sogni in realtà. Con l'aiuto del coach giusto, potrai imparare le
-            tecniche e le strategie necessarie per diventare un pugile di
-            successo.
-          </p>
-          <p>
-            Sia che tu stia cercando di migliorare la tua tecnica o di
-            prepararti per un incontro importante, un coach esperto può aiutarti
-            a raggiungere i tuoi obiettivi e diventare il pugile che hai sempre
-            sognato di essere.
-          </p>
-          <button>DIVENTA IL MIGLIORE</button>
+          <div class="container__textImg">
+            <h2>TRASFORMA I TUOI SOGNI</h2>
+            <h2>DI PUGILATO IN REALTA</h2>
+            <p>
+              Se hai sempre sognato di diventare un campione di pugilato, non
+              c'è mai stato un momento migliore per iniziare a trasformare i
+              tuoi sogni in realtà. Con l'aiuto del coach giusto, potrai
+              imparare le tecniche e le strategie necessarie per diventare un
+              pugile di successo.
+            </p>
+            <p>
+              Sia che tu stia cercando di migliorare la tua tecnica o di
+              prepararti per un incontro importante, un coach esperto può
+              aiutarti a raggiungere i tuoi obiettivi e diventare il pugile che
+              hai sempre sognato di essere.
+            </p>
+            <button>DIVENTA IL MIGLIORE</button>
+          </div>
         </div>
       </section>
 
-      <section>
-        <h2>QUAL È IL SEGRETO PER DIVENTARE UN CAMPIONE DI BOXE?</h2>
-        <div class="container__leftCollum">
-          <div>
-            <h2>Qual è il segreto per diventare un campione di boxe?</h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
-          <div>
-            <h2>
-              Quali sono gli errori più comuni che i principianti fanno nella
-              boxe?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
-          <div>
-            <h2>
-              Posso allenarmi con te anche se non ho mai praticato la boxe
-              prima?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
-          <div>
-            <h2>Posso avere sessioni di allenamento personalizzate con te?</h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
-          <div>
-            <h2>
-              Quali sono le differenze tra pugilato amatoriale e quello
-              professionale?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
-        </div>
+      <section class="container__sectionCollums">
+        <h2>QUAL È IL SEGRETO PER DIVENTARE</h2>
+        <h2>UN CAMPIONE DI BOXE <span>?</span></h2>
 
-        <div class="container__rigthCOllum">
-          <div>
-            <h2>
-              Come posso migliorare la mia resistenza fisica per i
-              combattimenti?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
+        <div class="container__divDisplay">
+          <div class="container__leftCollum">
+            <div>
+              <h2>Qual è il segreto per diventare un campione di boxe?</h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
+            <div>
+              <h2>
+                Quali sono gli errori più comuni che i principianti fanno nella
+                boxe?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
+            <div>
+              <h2>
+                Posso allenarmi con te anche se non ho mai praticato la boxe
+                prima?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
+            <div>
+              <h2>
+                Posso avere sessioni di allenamento personalizzate con te?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
+            <div>
+              <h2>
+                Quali sono le differenze tra pugilato amatoriale e quello
+                professionale?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
           </div>
 
-          <div>
-            <h2>Come gestisci gli infortuni dei tuoi atleti?</h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
+          <div class="container__rigthCollum">
+            <div>
+              <h2>
+                Come posso migliorare la mia resistenza fisica per i
+                combattimenti?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
 
-          <div>
-            <h2>
-              Quali sono i consigli che dai ai tuoi atleti per la preparazione
-              mentale?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
+            <div>
+              <h2>Come gestisci gli infortuni dei tuoi atleti?</h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
 
-          <div>
-            <h2>
-              Quali sono le strategie migliori per affrontare un combattimento?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
-          </div>
+            <div>
+              <h2>
+                Quali sono i consigli che dai ai tuoi atleti per la preparazione
+                mentale?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
 
-          <div>
-            <h2>
-              Quali sono le tecniche di respirazione migliori per la boxe?
-            </h2>
-            <img src="./src/assets/Vector.svg" alt="Vector" />
+            <div>
+              <h2>
+                Quali sono le strategie migliori per affrontare un
+                combattimento?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
+
+            <div>
+              <h2>
+                Quali sono le tecniche di respirazione migliori per la boxe?
+              </h2>
+              <img src="./src/assets/Vector.svg" alt="Vector" />
+            </div>
           </div>
         </div>
 
