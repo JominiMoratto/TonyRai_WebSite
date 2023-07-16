@@ -1,0 +1,29 @@
+.container__footer {
+    font-family: 'Bakbak One';
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5.5rem;
+    align-items: center;
+    margin-top: 4rem;
+    height: 180px;
+}
+
+.container__footer > img {
+    width: 20%;
+}
+
+.container__divLogosend {
+    display: flex;
+    gap: 1rem;
+}
+
+.container__divLogosend > img {
+    width: 50px;
+}
+
+.container__footer > nav > ul {
+    display: flex;
+    gap: 2.5rem;
+    padding-right: 10rem;
+}
